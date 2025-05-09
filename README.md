@@ -1,6 +1,6 @@
 # 🏃🏾💨 Forme, The Fitness Tracking App for You 
 
-A dynamic mobile fitness app that is intended to seamlessly integrate personalized health insights, progress and nutrition tracking, diverse workout plans, wearable sync, social motivation, and smart notifications to support every aspect of your wellness journey.
+A dynamic mobile fitness app that is intended to seamlessly integrate personalized health insights, progress and nutrition tracking to support every aspect of your wellness journey.
 
 ## Table of Contents
 - Features
