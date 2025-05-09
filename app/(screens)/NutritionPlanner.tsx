@@ -10,7 +10,7 @@ export default function NutritionPlanner() {
         alignItems: "center",
       }}
     >
-      <Text>HomeScreen</Text>
+      <Text>NutritionPlanner</Text>
     </View>
   );
 }

@@ -10,7 +10,7 @@ export default function ProgressTracker() {
         alignItems: "center",
       }}
     >
-      <Text>HomeScreen</Text>
+      <Text>ProgressTracker</Text>
     </View>
   );
 }

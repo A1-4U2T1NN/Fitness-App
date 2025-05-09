@@ -4,13 +4,9 @@ import { Text, View } from "react-native";
 export default function HomeScreen() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+    className="flex-1 justify-center items-center"
     >
-      <Text>HomeScreen</Text>
+      <Text className="text-5xl text-blue-500 font-bold">Welcome</Text>
     </View>
   );
 }

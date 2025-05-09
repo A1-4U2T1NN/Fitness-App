@@ -10,7 +10,7 @@ export default function WorkoutPlanner() {
         alignItems: "center",
       }}
     >
-      <Text>HomeScreen</Text>
+      <Text>WorkoutPlanner</Text>
     </View>
   );
 }
