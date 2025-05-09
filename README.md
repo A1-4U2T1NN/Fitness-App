@@ -98,3 +98,7 @@ Join our community of developers creating universal apps.
 ## Donation Links
 
 ## Licenses
+
+This project is licensed under the [Custom Open Software License v1.0 (Non-Commercial)](LICENSE.md).
+
+For more details, please see the full license text in the [LICENSE.md](LICENSE.md) file.
