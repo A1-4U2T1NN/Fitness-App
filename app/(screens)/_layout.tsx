@@ -12,17 +12,17 @@ export default function RootLayout() {
             title: "Home", 
             headerShown: false,
             // tabBarIcon: ({ focused }) => (
-            //     // <>
-            //     //     <ImageBackground 
-            //     //         source={images.highlight}
-            //     //         className="flex flex-row"
-            //     //     >
-            //     //       <Image 
-            //     //         source={icons.homeBlack}
-            //     //         />
-            //     //       <Text>Home</Text>
-            //     //     </ImageBackground>
-            //     // </>
+            //     <>
+            //         <ImageBackground 
+            //             source={images.highlight}
+            //             className="flex flex-row w-full flex-1 min-w-[112px] min-h-14 mt-4 justify-center items-center rounded-full overflow-hidde"
+            //         >
+            //           <Image 
+            //             source={icons.homeBlack} tintColor="#151312" 
+            //             />
+            //           <Text>Home</Text>
+            //         </ImageBackground>
+            //     </>
             // )
         }}
     />
