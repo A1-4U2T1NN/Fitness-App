@@ -2,6 +2,9 @@ import { Stack, Tabs } from "expo-router";
 import { icons } from "@/constants/icons";
 import { images } from "@/constants/images";
 import { ImageBackground, Image, Text } from "react-native";
+import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import Entypo from "@expo/vector-icons/Entypo";
+import { useIsFocused } from "@react-navigation/native";
 
 export default function RootLayout() {
   return (
@@ -11,19 +14,13 @@ export default function RootLayout() {
         options={{
           title: "Home",
           headerShown: false,
-          // tabBarIcon: ({ focused }) => (
-          //     <>
-          //         <ImageBackground
-          //             source={images.highlight}
-          //             className="flex flex-row w-full flex-1 min-w-[112px] min-h-14 mt-4 justify-center items-center rounded-full overflow-hidde"
-          //         >
-          //           <Image
-          //             source={icons.homeBlack} tintColor="#151312"
-          //             />
-          //           <Text>Home</Text>
-          //         </ImageBackground>
-          //     </>
-          // )
+          tabBarShowLabel: false,
+          tabBarIcon: ({ focused }) => (
+            <>
+              <Entypo name="home" size={24} color="#black" />
+              <Text style={{ fontSize: 10 }}>Home</Text>
+            </>
+          ),
         }}
       />
       <Tabs.Screen
@@ -31,6 +28,13 @@ export default function RootLayout() {
         options={{
           title: "Nutrition",
           headerShown: false,
+          tabBarShowLabel: false,
+          tabBarIcon: ({ focused }) => (
+            <>
+              <FontAwesome6 name="apple-whole" size={24} color="black" />
+              <Text style={{ fontSize: 10 }}>Nutrition</Text>
+            </>
+          ),
         }}
       />
       <Tabs.Screen
@@ -38,6 +42,13 @@ export default function RootLayout() {
         options={{
           title: "Progress",
           headerShown: false,
+          tabBarShowLabel: false,
+          tabBarIcon: ({ focused }) => (
+            <>
+              <Entypo name="clipboard" size={24} color="black" />
+              <Text style={{ fontSize: 10 }}>Progress</Text>
+            </>
+          ),
         }}
       />
       <Tabs.Screen
@@ -45,6 +56,13 @@ export default function RootLayout() {
         options={{
           title: "Workouts",
           headerShown: false,
+          tabBarShowLabel: false,
+          tabBarIcon: ({ focused }) => (
+            <>
+              <FontAwesome6 name="dumbbell" size={24} color="black" />
+              <Text style={{ fontSize: 10 }}>Workouts</Text>
+            </>
+          ),
         }}
       />
     </Tabs>
