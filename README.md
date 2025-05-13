@@ -1,8 +1,9 @@
-# 🏃🏾💨 Forme, The Fitness Tracking App for You 
+# 🏃🏾💨 Forme, The Fitness Tracking App for You
 
 A dynamic mobile fitness app that is intended to seamlessly integrate personalized health insights, progress and nutrition tracking to support every aspect of your wellness journey.
 
 ## Table of Contents
+
 - Features
 - How it Works
 - Installation
@@ -13,6 +14,7 @@ A dynamic mobile fitness app that is intended to seamlessly integrate personaliz
 - Licenses
 
 ## Features
+
 - Get a personalized dashboard with quick actions, daily health insights, fitness tips, recommended workouts, and real-time wearable sync updates.
 - Access your profile, notifications, settings, help resources, and log-out options through a streamlined navigation hub.
 - Visualize your fitness journey with detailed tracking of weight, steps, heart rate, reps, and streaks — complete with goal-setting, milestones, and Apple Watch integration.
@@ -22,15 +24,18 @@ A dynamic mobile fitness app that is intended to seamlessly integrate personaliz
 - Get timely nudges through mini challenges, hydration reminders, and flash routines to keep your momentum going throughout the day.
 
 ## Installation
+
 Follow these steps to set up and run the project locally:
 
 Prerequisites
+
 - Node.js (v18+ recommended) – [Install Node](https://nodejs.org/)
 - npm
 - Expo CLI (for React Native)
-   - npx install-expo-modules@latest
+  - npx install-expo-modules@latest
 
 1. Install dependencies
+
    - npm install
 
 2. Start the app

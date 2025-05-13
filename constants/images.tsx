@@ -1,7 +1,7 @@
 import { ImageSourcePropType } from "react-native";
 
-const highlight: ImageSourcePropType = require("@/assets/images/highlight.png")
+const highlight: ImageSourcePropType = require("@/assets/images/highlight.png");
 
 export const images = {
-    highlight
-}
+  highlight,
+};
