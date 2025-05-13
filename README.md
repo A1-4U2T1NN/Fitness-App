@@ -63,9 +63,13 @@ git clone https://github.com/yourusername/your-project-name.git
 
 git checkout -b feature/your-feature-name
 
-4. Make your changes and Run all tests:
+4. Make your changes, Run all tests(If Applicable), and Lint/Format code:
 
 npm run test
+
+npx eslint
+
+npx prettier -w .
 
 5. Commit using conventional commits
 
